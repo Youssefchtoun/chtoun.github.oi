@@ -1,0 +1,18 @@
+div style="font-family: Arial, sans-serif; background: #f4f4f4; padding: 20px; border-radius: 10px; direction: rtl;">
+    <h3 style="color: #2c3e50;">حاسبة أرباح مشروع النقل - الداخلة</h3>
+    
+    <label>عدد أيام العمل في الشهر:</label><br>
+    <input type="number" id="days" value="30" style="width: 100%; padding: 8px; margin: 10px 0;"><br>
+    
+    <label>الدخل اليومي (درهم):</label><br>
+    <input type="number" id="revenue" value="500" style="width: 100%; padding: 8px; margin: 10px 0;"><br>
+    
+    <label>مصاريف المازوط اليومية (درهم):</label><br>
+    <input type="number" id="fuel" value="150" style="width: 100%; padding: 8px; margin: 10px 0;"><br>
+    
+    <button onclick="calculate()" style="background: #27ae60; color: white; border: none; padding: 10px 20px; cursor: pointer; width: 100%; border-radius: 5px;">احسب الربح الصافي</button>
+    
+    <div id="result" style="margin-top: 20px; font-weight: bold; color: #c0392b; font-size: 1.2em;"></div>
+</div>
+
+<script>
